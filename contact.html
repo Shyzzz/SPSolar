@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - SP Solar Technology    </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+        <header>
+        <div class="header-main" >
+      <div class="logo">
+          <h1 style="color: #f0f6f2;">SP Solar Technology</h1>
+      </div>
+          <p>Contact Us <br>
+          <a href="mailto:spsolartechnology@gmail.com">Mail: spsolartechnology@gmail.com</a> |<br> Call: +91 9363415494</p>
+      </div>
+      <nav>
+          <ul class="nav-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="products.html">Products</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="contact.html" class="active">Contact</a></li>
+          </ul>
+          <div class="menu-toggle">&#9776;</div>
+      </nav>
+  </div>
+</header>
+
+    <main>
+        <section id="contact-info">
+            <div class="container">
+                <img src="images/i2.jpg" alt="Solar Panels" style="width: 100%; height: auto; border-radius: 10px;">
+                <h2 style="color: #145c33;">Get in Touch</h2>
+                <p style="color: #2f4f4f;">We'd love to hear from you! Whether you have a question about our products, services, pricing, or anything else, our team is ready to answer all your questions.</p>
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <h3 style="color: #145c33;">Email Us</h3>
+                        <p><a href="mailto:spsolartechnology@gmail.com" style="color: #145c33;">spsolartechnology@gmail.com</a></p>
+                    </div>
+                    <div class="contact-item">
+                        <h3 style="color: #145c33;">Call Us</h3>
+                        <p style="color: #2f4f4f;">+91 9363415494, +91 9865382903 </p>
+                    </div>
+                    <div class="contact-item">
+                        <h3 style="color: #145c33;">Visit Us</h3>
+                        <p style="color: #2f4f4f;">S.No: 396/2,
+                            Sri Thirumalai Nagar,Nainarpalayam Road, Chinnasalem,Kallakurichi,(Dt),Tamilnadu-606 201.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact-form">
+            <div class="container">
+                <h2 style="color: #145c33;">Send Us a Message</h2>
+                <form action="submit_form.php" method="POST">
+                    <div class="form-group">
+                        <label for="name" style="color: #145c33;">Your Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" style="color: #145c33;">Your Email</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message" style="color: #145c33;">Your Message</label>
+                        <textarea id="message" name="message" rows="6" placeholder="Type your message here" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" style="background-color: #145c33; color: white;">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <section id="contact-map">
+                        <div class="contact_map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d977.0028466186741!2d78.88165417756974!3d11.622538541705293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bab6fa318f68d5d%3A0xff48a17a88e83069!2sSP%20Solar%20Technology!5e0!3m2!1sen!2sus!4v1736453087227!5m2!1sen!2sus" width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                       </section> 
+                                   
+    </main>
+    <footer>
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-column">
+                        <h3>About Us</h3>
+                        <p>SP Solar Technology is committed to providing innovative and sustainable energy solutions across the globe.</p>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="products.html">Products</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Contact Us</h3>
+                        <p>Email: <a href="mailto:spsolartechnology@gmail.com">spsolartechnology@gmail.com</a></p>
+                        <p>Phone: +91 9865382903, +91 9363415494</p>
+                        <p>Address: Sri Thirumalai Nagar, Nainarpalayam Road, Chinnasalem, Kallakurichi (Dt), Tamilnadu-606 201</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom" style="background-color: #0f1210; color: #155724;">
+            <div class="container">
+                <p>&copy; 2025 SP Solar Technology . All rights reserved.</p>
+            </div>
+               
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const menuToggle = document.querySelector('.menu-toggle');
+            const navMenu = document.querySelector('.nav-links');
+        
+            menuToggle.addEventListener('click', function() {
+                navMenu.classList.toggle('active');
+            });
+        });
+        </script>
+</body>
+</html>
